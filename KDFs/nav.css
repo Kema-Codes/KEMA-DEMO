@@ -1,0 +1,43 @@
+
+.LOGO{
+    font-size: 40px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    color: green;
+    margin-left: 29px;
+    background-color: yellowgreen;
+    background-image:  linear-gradient(rgba(4, 9, 30, 0.7)), url(img/images.jpeg );
+    font-size: 220%;
+    width: 100%;
+}
+/*Navigation links*/
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: large;
+    color: black;
+}
+.navbar li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #118f30;
+    font-size: 100%;
+}
+.navbar ul a:hover{
+    color: #ff9900;
+} 
+item-content{
+    text-align: center;
+    font-size: 300px;
+    color: black;
+}
+.content{
+    color: black;
+}
